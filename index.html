@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <title>age</title>
+</head>
+<body>
+    
+    <div class="container">
+    
+        <div class="main">
+            
+            <h2>Виберіть Вашу стать:</h2>
+            <select name="sex" id="sex" class="sex">
+                <option class="option" value="0" selected> - </option>
+                <option class="option" value="man">Чоловік</option>
+                <option class="option" value="woman">Жінка</option>
+            </select>
+            
+            <div class="man warning_items">
+                <h2 class="title-price">Введіть Ваш рік народження:</h2>
+                <input class="inputDate" type="date" id="date">
+            </div>
+
+            <div class="warnings">
+                
+                <div class="warning_items woman">
+                    <h2>Дівчат рік не питають</h2>
+                </div>
+        
+                <div class="warning_items nothing">
+                    <h2>Обери значення, не задовбуй!</h2>
+                </div>
+        
+                <!-- <div class="warning_items numbers">
+                    <h2>Введіть 4 цифри</h2>
+                </div>
+        
+                <div class="warning_items year">
+                    <h2>Введіть реальний рік</h2>
+                </div> -->
+        
+                <div class="warning_items not">
+                    <h2>Вам ще немає 18! Киш звідси!</h2>
+                </div>
+        
+                <div class="warning_items ok">
+                    <h2>Вітаємо! Ви вже дорослий!</h2>
+                </div>
+
+            </div>        
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
